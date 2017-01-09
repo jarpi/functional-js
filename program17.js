@@ -1,4 +1,3 @@
-module.exports = function slice() {
-    console.dir(arguments);
-    return 
+module.exports = function slice(arr, begin, end) {
+	return arr.split('').slice(begin, end);
 }
